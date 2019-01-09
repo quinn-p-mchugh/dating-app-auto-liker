@@ -16,7 +16,7 @@ class Account:
 
     def __init__(self, password, username = None, email = None):
         """Initializes Account class with password and, optionally,
-         username and email.
+        username and email.
         """
         self.password = password
         self.username = email

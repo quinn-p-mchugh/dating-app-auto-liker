@@ -1,4 +1,7 @@
-"""Module containing code to begin auto liking."""
+"""Module containing code to begin auto liking.
+
+Uses Google Python Style Guide: https://google.github.io/styleguide/pyguide.html
+"""
 
 import threading
 from website import *

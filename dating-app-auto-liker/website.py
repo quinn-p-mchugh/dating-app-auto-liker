@@ -4,7 +4,6 @@ Uses Google Python Style Guide: https://google.github.io/styleguide/pyguide.html
 """
 
 import account
-
 import time
 
 from selenium import webdriver

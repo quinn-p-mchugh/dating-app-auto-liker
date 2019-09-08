@@ -4,15 +4,16 @@ Uses Google Python Style Guide: https://google.github.io/styleguide/pyguide.html
 """
 
 import threading
+from account import *
 from website import *
 
 """Input user account information here:"""
 # OkCupid email and password
-ok_cupid_email = "(Your Facebook Email)"
-ok_cupid_password = "(Your Facebook Password)"
+ok_cupid_email = ""
+ok_cupid_password = ""
 # Tinder email and password
-tinder_email = "(Your Facebook Email)"
-tinder_password = "(Your Facebook Password)"
+tinder_email = ""
+tinder_password = ""
 
 # Initialize dating websites
 ok_cupid  = OkCupid(Account(email = ok_cupid_email,

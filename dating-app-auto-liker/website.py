@@ -116,8 +116,6 @@ class Tinder(DatingWebsite):
     """Represents Tinder, the dating website.
 
     Attributes:
-        name: A string containing the name of the website.
-        url: A string containing the url of the website.
         account: An Account object associated with the website.
         web_driver: The web driver used open and utilize the website.
     """
@@ -150,7 +148,12 @@ class Tinder(DatingWebsite):
             time.sleep(1)
 
 class OkCupid(DatingWebsite):
-    """ Represents OkCupid, the dating website."""
+    """ Represents OkCupid, the dating website.
+    
+    Attributes:
+        account: An Account object associated with the website.
+        web_driver: The web driver used open and utilize the website.
+    """
 
     def __init__(self, account, web_driver = None):
         """Initializes OkCupid class with name, url, account, and web_driver."""
